@@ -34,6 +34,6 @@ d)Modify certain resources: Invalid input and Method etc and validate the respon
 e)Authenciation cases: probably Updating data structure will have some outcome or effect on the system, and that should be authenticated
 
 3) It depends upon the tool we use :
-for this scenario, we can also use directly with for loop and Java lib. 
+for this scenario, we can also use directly with for loop and Java lib and NPM packages. 
 but also we can rest assured lib 
 if we use Java script: Super Test, Mocha BDD etc but in my experince tools having inbuit lib to validate various responses.
