@@ -16,10 +16,11 @@ Exercise 4:
 
 1) Generally first we have to find tools , which tool/lib is easy and best to automated but in genearal steps I will follow as below.
 First I will test the endpoint and status manually to understand the behaviour and scenarios. 
-Creating the method for verify the good weather test with status code (200) , by proving endpoint and diffent scenarios.
-Simillary , for the bad weather/input inputs and validate the status code(400,404 ) against the input provided.
-Testing with the different method, in this case - it is GET method.
-also, Validate the response body based on the status code .
+Creating the method for verify the good weather test with status code (200) , by proving endpoint and diffent scenarios where validate the actual and expected status code.
+Simillary , for the bad weather/input inputs and validate the status code(400,404 ) against the input provided and same here validate the actual and expected status code.
+Testing with the different method, in this case - it is GET method. also test with POST, PATH and delete method and test the behaviour.
+also, Validate the json response body against the input provided.
+
 
 
 
@@ -28,7 +29,7 @@ also, Validate the response body based on the status code .
 a)Return value based on input condition : maily covering good weather scenarios (available , pending and sold), execute the scenarios and validate the response.(statusa code 400)
 b) providing Multiple status values and validate the status code and response.
 b)Does not return anything- empty
-c)Bad weathere scenarios: proving wrong input- (anything out of good weather scenarios) and check the status code 400.
+c)Bad weathere scenarios: proving wrong input- (anything out of good weather scenarios) and check the status codes 400/404.
 d)Modify certain resources: Invalid input and Method etc and validate the response.
 e)Authenciation cases: probably Updating data structure will have some outcome or effect on the system, and that should be authenticated
 
