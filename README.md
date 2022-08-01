@@ -2,7 +2,7 @@
 
 Steps to run and Test the Semodemo Project:
 
-Step1: download the saucedemo.zip project (due to some SSH problem , i had to upload project via zip).
+Step1: download the saucedemo.zip project (due to some SSH problem and access isuue as i am using my company laptop , so, i had to upload project via creating zip).
 Step2: open project in IntelliJ or any other other IDEA
 step3: build porject - open Maven - (see right side) and do clean install
 step4: check if build is succesfully completesd- finished with exit code 0
