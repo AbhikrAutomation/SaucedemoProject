@@ -15,10 +15,11 @@ Step8 : once done and if its passed, it will show ,( Total tests run: 1, Passes:
 Exercise 4:
 
 1) Generally first we have to find tools , which tool/lib is easy and best to automated but in genearal steps I will follow as below.
+First I will test the endpoint and status manually to understand the behaviour and scenarios. 
 Creating the method for verify the good weather test with status code (200) , by proving endpoint and diffent scenarios.
 Simillary , for the bad weather/input inputs and validate the status code(400,404 ) against the input provided.
-Testing the different method, in the given scenario it is get.
-Validate the response body based on status code .
+Testing with the different method, in this case - it is GET method.
+also, Validate the response body based on the status code .
 
 
 
@@ -29,7 +30,7 @@ b) providing Multiple status values and validate the status code and response.
 b)Does not return anything- empty
 c)Bad weathere scenarios: proving wrong input- (anything out of good weather scenarios) and check the status code 400.
 d)Modify certain resources: Invalid input and Method etc and validate the response.
-e)Authenciation cases: probalby Updating data structure will have some outcome or effect on the system, and that should be authenticated
+e)Authenciation cases: probably Updating data structure will have some outcome or effect on the system, and that should be authenticated
 
 3) It depends upon the tool we use :
 for this scenario, we can also use directly with for loop and Java lib. 
